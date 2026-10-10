@@ -1,0 +1,504 @@
+{
+  "staff": [
+    {
+      "id": "S1",
+      "name": "Asha",
+      "role": "STAFF",
+      "certifications": [
+        "ICU"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Ben",
+      "role": "STAFF",
+      "certifications": []
+    },
+    {
+      "id": "S3",
+      "name": "Priya",
+      "role": "STAFF",
+      "certifications": [
+        "PEDS"
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Rohan",
+      "role": "STAFF",
+      "certifications": [
+        "ICU",
+        "PEDS"
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Sana",
+      "role": "STAFF",
+      "certifications": []
+    },
+    {
+      "id": "S6",
+      "name": "Tarun",
+      "role": "STAFF",
+      "certifications": [
+        "ICU"
+      ]
+    },
+    {
+      "id": "S7",
+      "name": "Uma",
+      "role": "STAFF",
+      "certifications": []
+    },
+    {
+      "id": "S8",
+      "name": "Vikram",
+      "role": "STAFF",
+      "certifications": [
+        "PEDS"
+      ]
+    },
+    {
+      "id": "M1",
+      "name": "Meera",
+      "role": "MANAGER",
+      "certifications": []
+    },
+    {
+      "id": "M2",
+      "name": "Nikhil",
+      "role": "MANAGER",
+      "certifications": []
+    }
+  ],
+  "shifts": [
+    {
+      "id": "SH001",
+      "start": "2026-03-02T07:00",
+      "end": "2026-03-02T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH002",
+      "start": "2026-03-02T07:00",
+      "end": "2026-03-02T15:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH003",
+      "start": "2026-03-02T07:00",
+      "end": "2026-03-02T15:00",
+      "required_certification": null,
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH004",
+      "start": "2026-03-02T15:00",
+      "end": "2026-03-02T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH005",
+      "start": "2026-03-02T15:00",
+      "end": "2026-03-02T23:00",
+      "required_certification": null,
+      "assigned_to": "S3"
+    },
+    {
+      "id": "SH006",
+      "start": "2026-03-02T23:00",
+      "end": "2026-03-03T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH007",
+      "start": "2026-03-03T07:00",
+      "end": "2026-03-03T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH008",
+      "start": "2026-03-03T07:00",
+      "end": "2026-03-03T15:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH009",
+      "start": "2026-03-03T15:00",
+      "end": "2026-03-03T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH010",
+      "start": "2026-03-03T23:00",
+      "end": "2026-03-04T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH011",
+      "start": "2026-03-03T23:00",
+      "end": "2026-03-04T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S6"
+    },
+    {
+      "id": "SH012",
+      "start": "2026-03-04T07:00",
+      "end": "2026-03-04T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH013",
+      "start": "2026-03-04T07:00",
+      "end": "2026-03-04T15:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH014",
+      "start": "2026-03-04T15:00",
+      "end": "2026-03-04T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH015",
+      "start": "2026-03-04T15:00",
+      "end": "2026-03-04T23:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S3"
+    },
+    {
+      "id": "SH016",
+      "start": "2026-03-04T18:00",
+      "end": "2026-03-04T23:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH017",
+      "start": "2026-03-04T23:00",
+      "end": "2026-03-05T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH018",
+      "start": "2026-03-05T07:00",
+      "end": "2026-03-05T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH019",
+      "start": "2026-03-05T07:00",
+      "end": "2026-03-05T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH020",
+      "start": "2026-03-05T15:00",
+      "end": "2026-03-05T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH021",
+      "start": "2026-03-05T15:00",
+      "end": "2026-03-05T23:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH022",
+      "start": "2026-03-05T23:00",
+      "end": "2026-03-06T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S6"
+    },
+    {
+      "id": "SH023",
+      "start": "2026-03-06T07:00",
+      "end": "2026-03-06T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH024",
+      "start": "2026-03-06T07:00",
+      "end": "2026-03-06T15:00",
+      "required_certification": null,
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH025",
+      "start": "2026-03-06T15:00",
+      "end": "2026-03-06T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH026",
+      "start": "2026-03-06T15:00",
+      "end": "2026-03-06T23:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S3"
+    },
+    {
+      "id": "SH027",
+      "start": "2026-03-06T15:00",
+      "end": "2026-03-06T23:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH028",
+      "start": "2026-03-07T07:00",
+      "end": "2026-03-07T15:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH029",
+      "start": "2026-03-07T07:00",
+      "end": "2026-03-07T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH030",
+      "start": "2026-03-07T23:00",
+      "end": "2026-03-08T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S6"
+    },
+    {
+      "id": "SH031",
+      "start": "2026-03-08T07:00",
+      "end": "2026-03-08T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH032",
+      "start": "2026-03-08T07:00",
+      "end": "2026-03-08T15:00",
+      "required_certification": null,
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH033",
+      "start": "2026-03-09T07:00",
+      "end": "2026-03-09T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH034",
+      "start": "2026-03-09T07:00",
+      "end": "2026-03-09T15:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH035",
+      "start": "2026-03-09T07:00",
+      "end": "2026-03-09T15:00",
+      "required_certification": null,
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH036",
+      "start": "2026-03-09T15:00",
+      "end": "2026-03-09T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH037",
+      "start": "2026-03-09T15:00",
+      "end": "2026-03-09T23:00",
+      "required_certification": null,
+      "assigned_to": "S3"
+    },
+    {
+      "id": "SH038",
+      "start": "2026-03-09T23:00",
+      "end": "2026-03-10T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH039",
+      "start": "2026-03-10T07:00",
+      "end": "2026-03-10T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH040",
+      "start": "2026-03-10T07:00",
+      "end": "2026-03-10T15:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH041",
+      "start": "2026-03-10T15:00",
+      "end": "2026-03-10T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH042",
+      "start": "2026-03-10T23:00",
+      "end": "2026-03-11T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH043",
+      "start": "2026-03-10T23:00",
+      "end": "2026-03-11T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S6"
+    },
+    {
+      "id": "SH044",
+      "start": "2026-03-11T07:00",
+      "end": "2026-03-11T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH045",
+      "start": "2026-03-11T07:00",
+      "end": "2026-03-11T15:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH046",
+      "start": "2026-03-11T15:00",
+      "end": "2026-03-11T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH047",
+      "start": "2026-03-11T15:00",
+      "end": "2026-03-11T23:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S3"
+    },
+    {
+      "id": "SH048",
+      "start": "2026-03-12T07:00",
+      "end": "2026-03-12T15:00",
+      "required_certification": null,
+      "assigned_to": "S2"
+    },
+    {
+      "id": "SH049",
+      "start": "2026-03-12T07:00",
+      "end": "2026-03-12T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH050",
+      "start": "2026-03-12T15:00",
+      "end": "2026-03-12T23:00",
+      "required_certification": "ICU",
+      "assigned_to": "S1"
+    },
+    {
+      "id": "SH051",
+      "start": "2026-03-12T15:00",
+      "end": "2026-03-12T23:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH052",
+      "start": "2026-03-12T23:00",
+      "end": "2026-03-13T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S6"
+    },
+    {
+      "id": "SH053",
+      "start": "2026-03-13T07:00",
+      "end": "2026-03-13T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH054",
+      "start": "2026-03-13T07:00",
+      "end": "2026-03-13T15:00",
+      "required_certification": null,
+      "assigned_to": "S8"
+    },
+    {
+      "id": "SH055",
+      "start": "2026-03-13T15:00",
+      "end": "2026-03-13T23:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S3"
+    },
+    {
+      "id": "SH056",
+      "start": "2026-03-13T15:00",
+      "end": "2026-03-13T23:00",
+      "required_certification": null,
+      "assigned_to": "S5"
+    },
+    {
+      "id": "SH057",
+      "start": "2026-03-14T07:00",
+      "end": "2026-03-14T15:00",
+      "required_certification": "PEDS",
+      "assigned_to": "S4"
+    },
+    {
+      "id": "SH058",
+      "start": "2026-03-14T07:00",
+      "end": "2026-03-14T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH059",
+      "start": "2026-03-14T23:00",
+      "end": "2026-03-15T07:00",
+      "required_certification": "ICU",
+      "assigned_to": "S6"
+    },
+    {
+      "id": "SH060",
+      "start": "2026-03-15T07:00",
+      "end": "2026-03-15T15:00",
+      "required_certification": null,
+      "assigned_to": "S7"
+    },
+    {
+      "id": "SH061",
+      "start": "2026-03-15T07:00",
+      "end": "2026-03-15T15:00",
+      "required_certification": null,
+      "assigned_to": "S8"
+    }
+  ]
+}

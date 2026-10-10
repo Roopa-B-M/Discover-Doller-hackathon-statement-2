@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+data/shiftswap.db
+data/*.db-journal
+.venv/
+venv/
